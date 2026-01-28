@@ -1,0 +1,112 @@
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    list-style: none;
+    background-color: rgba(105, 172, 248, 0.787);
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(to left, #1349d1, #0082c8);
+    color: black;
+    margin: 0;
+}
+
+.logo {
+    margin: 2em;
+}
+
+.bouton {
+    padding: 1em;
+    background-color: rgb(231, 230, 255);
+    border-radius: 123% 77% 17% 83% / 77% 14% 86% 23%;
+    text-decoration: none;
+}
+
+.bouton:visited {
+    color: black;
+}
+
+.bouton:hover {
+    background-color: white;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+#important1 {
+    color: red;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.titre_page {
+    text-align: right;
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    color: white;
+}
+
+header {
+    position: relative;
+}
+
+main {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.768);
+}
+
+footer {
+    background: linear-gradient(to left, #1349d1, #0082c8);
+    padding: 3em;
+    color: white;
+}
+
+.legende {
+    padding-top: 2em;
+    font-style: italic;
+    font-size: smaller;
+}
+
+td:not(.legende) {
+    border: black solid;
+}
+
+#important2 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pile {
+    display: flex;
+    margin-left: 3em;
+}
+
+.article_pile {
+    display: flex;
+}
+
+.test {
+    margin-left: 5em;
+    border-radius: 40%;
+}
+
+#important3 {
+    color: red;
+    font-weight: bold;
+    text-align: justify;
+    font-style: italic;
+    font-size: smaller;
+}
