@@ -32,6 +32,14 @@ body {
     color: black;
 }
 
+.bouton:link{
+    color: black;
+}
+
+.bouton:active {
+    color: rgb(25, 0, 255);
+}
+
 .bouton:hover {
     background-color: white;
 }
@@ -44,7 +52,7 @@ h2 {
     font-weight: 500;
 }
 
-#important1 {
+#important {
     color: red;
     font-weight: bold;
     text-align: justify;
@@ -83,12 +91,6 @@ td:not(.legende) {
     border: black solid;
 }
 
-#important2 {
-    color: red;
-    font-weight: bold;
-    text-align: center;
-}
-
 .pile {
     display: flex;
     margin-left: 3em;
@@ -101,12 +103,4 @@ td:not(.legende) {
 .test {
     margin-left: 5em;
     border-radius: 40%;
-}
-
-#important3 {
-    color: red;
-    font-weight: bold;
-    text-align: justify;
-    font-style: italic;
-    font-size: smaller;
 }
