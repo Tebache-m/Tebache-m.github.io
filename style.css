@@ -1,47 +1,100 @@
-.menu {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 3em;
-    list-style: none;
-    background-color: rgba(105, 172, 248, 0.787);
-}
-
 body {
     font-family: "Lexend", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
-    font-style: normal;
+
     background: linear-gradient(to left, #1349d1, #0082c8);
+
     color: black;
     margin: 0;
 }
 
+header {
+    position: relative;
+    min-height: 120px;
+}
+
 .logo {
     margin: 2em;
+    width: 80px;
+}
+
+.titre_page {
+    position: absolute;
+
+    right: 1.5em;
+    top: 1em;
+
+    color: white;
+
+    font-weight: 600;
+    text-align: right;
+}
+
+.nav_principal {
+    background-color: rgb(105, 172, 248);
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+
+    justify-content: space-between;
+
+    list-style: none;
+
+    margin: 0;
+    padding: 1.5em;
+}
+
+.menu li {
+    margin: 0 0.3em;
 }
 
 .bouton {
-    padding: 1em;
+    padding: 0.8em 1.2em;
+
     background-color: rgb(231, 230, 255);
+
     border-radius: 123% 77% 17% 83% / 77% 14% 86% 23%;
+
     text-decoration: none;
+
+    color: black;
+
+    font-weight: 400;
+
+    transition: background-color 0.3s ease;
 }
 
+.bouton:link,
 .bouton:visited {
     color: black;
 }
 
-.bouton:link{
-    color: black;
+.bouton:hover {
+    background-color: white;
 }
 
 .bouton:active {
     color: rgb(25, 0, 255);
 }
 
-.bouton:hover {
-    background-color: white;
+main {
+    padding: 2em;
+
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+article {
+    margin-top: 1.5em;
 }
 
 h1 {
@@ -50,45 +103,129 @@ h1 {
 
 h2 {
     font-weight: 500;
+
+    border-bottom: 2px solid #1349d1;
+
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+p {
+    text-align: justify;
+
+    line-height: 1.6;
+
+    margin: 1em 0;
 }
 
 #important {
     font-weight: bold;
-    text-align: justify;
 }
 
-.titre_page {
-    text-align: right;
-    position: absolute;
-    right: 1.5em;
-    top: 1em;
-    color: white;
+ul,
+ol {
+    margin-left: 2em;
+
+    margin-top: 1em;
 }
 
-header {
-    position: relative;
+li {
+    margin-bottom: 0.4em;
 }
 
-main {
-    padding: 1em;
-    background-color: rgba(255, 255, 255, 0.768);
+dl {
+    margin-left: 2em;
 }
 
-footer {
-    background: linear-gradient(to left, #1349d1, #0082c8);
-    padding: 3em;
-    color: white;
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+dd {
+    margin-left: 1.5em;
+}
+
+table {
+    border-collapse: collapse;
+
+    margin: 2em auto;
+
+    width: 80%;
+}
+
+th,
+td {
+    border: 1px solid black;
+
+    padding: 0.7em;
+
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(200, 220, 255);
+}
+
+tfoot {
+    font-style: italic;
 }
 
 .legende {
-    padding-top: 2em;
-    font-style: italic;
     font-size: smaller;
 }
 
-td:not(.legende) {
-    border: black solid;
+figure {
+    text-align: center;
+
+    margin: 2em;
 }
+
+figure img {
+    max-width: 90%;
+}
+
+figcaption {
+    font-style: italic;
+
+    font-size: smaller;
+
+    margin-top: 0.5em;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+aside {
+    background-color: rgba(255, 255, 255, 0.6);
+
+    padding: 1em;
+
+    margin: 2em;
+
+    border-left: 5px solid #1349d1;
+}
+
+
+footer {
+    background: linear-gradient(to left, #1349d1, #0082c8);
+
+    padding: 2em;
+
+    color: white;
+
+    text-align: center;
+}
+
 
 .pile {
     display: flex;
